@@ -61,8 +61,8 @@ function CargaEmpleados(DatosApi){
 
 
   botonEdit.addEventListener("click",() => {
-      let editables = btnEdit.parentElement;
-       editables = editables.childNodes
+      let edit = botonEdit.parentElement;
+       edit = edit.childNodes
          if (botonEdit.innerText == "Editar") {
              editar(edit);
              botonEdit.innerText = "Aceptar";
